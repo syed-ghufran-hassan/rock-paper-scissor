@@ -23,8 +23,7 @@ contract DeployScript is Script {
         
         console.log("\n=== Deployment Successful ===");
         console.log("RockPaperScissors deployed at:", address(game));
-        console.log("Admin address:", game.adminAddress());
+        console.log("Admin address:", game.admin());  // Changed from adminAddress() to admin()
         console.log("Minimum bet:", game.minBet() / 1e18, "ETH");
-        console.log("Join timeout:", game.joinTimeout() / 3600, "hours");
     }
 }

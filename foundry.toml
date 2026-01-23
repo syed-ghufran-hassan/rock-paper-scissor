@@ -7,9 +7,7 @@ optimizer = true
 optimizer_runs = 200
 
 [rpc_endpoints]
-# Base Sepolia endpoints
-base_sepolia = "https://base-sepolia.g.alchemy.com/v2/${providerApiKey}"
- 
+base-sepolia = "https://base-sepolia.g.alchemy.com/v2/P9iizjWSpGJP7WazfVoN25Fd1NqOwOJM"
 
 [etherscan]
-base_sepolia = { key = "${etherscanApiKey}" }
+base-sepolia = { key = "5MVSQ96IUINC3FQ3RTIWIVK2QZVSNME3I5" }
